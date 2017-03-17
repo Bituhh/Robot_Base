@@ -38,4 +38,8 @@ int16_t baseC() {
   int16_t val = round(baseC);
   return val;
 }
+int findDistance(int32_t item){
+  int32_t findDistance = item * DPP;
+  return findDistance; 
+}
 
