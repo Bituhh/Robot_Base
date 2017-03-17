@@ -28,7 +28,7 @@ int32_t M2Distance(){
 }
 
 int16_t Difference(){
-  int16_t x = findDistance(M1Pulse) - findDistance(M2Pulse);
+  int16_t x = M1Pulse - M2Pulse;
   int16_t Dif = abs(x);
   return Dif;
 }

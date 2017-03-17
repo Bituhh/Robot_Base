@@ -4,8 +4,8 @@
 //------------------ Constant-Variables---------------------
 const int16_t pulseResolution = 64;
 const int8_t wheelD = 60;
-const int8_t errorMarginSmall = 50;
-const int8_t errorMarginLarge = 55;
+const int8_t errorMarginSmall = 1;
+//const int8_t errorMarginLarge = 55;
 const int8_t adjustVal = 3;
 
 //------------------Changable-Variables---------------------
@@ -60,5 +60,5 @@ void setup() {
 }
 
 void loop() {
-  Forward(100,800);
+  Forward(80,8000);
 }
