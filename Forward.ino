@@ -9,7 +9,7 @@ void Forward(int16_t Speed, int16_t Distance) {
       digitalWrite(M2b , LOW);
       analogWrite(PWM2 , Speed);
     }
-    else if (M2Pulse - M1Pulse > errorMargin) {
+    else if (abs(findDistance(M2Pulse) - abs(findDistance(M1Pulse) > errorMargin) {
       digitalWrite(M1a , LOW);
       digitalWrite(M1b , LOW);
       analogWrite(PWM1 , Speed);
