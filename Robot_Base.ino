@@ -4,7 +4,7 @@
 //------------------ Constant-Variables---------------------
 const int16_t pulseResolution = 64;
 const int8_t wheelD = 60;
-const int8_t errorMargin = 5;
+const int8_t errorMargin = 10;
 const int8_t adjustVal = 3;
 
 //------------------Changable-Variables---------------------
