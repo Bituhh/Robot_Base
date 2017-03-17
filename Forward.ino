@@ -1,7 +1,7 @@
 void Forward(int16_t Speed, int16_t Distance) {
   Speed = map(constrain(Speed , 0 , 100), 0 , 100, 0, 200);
   while (Distance > currentDistance()) {
-    if (M1Pulse - M2Pulse > errorMargin) {
+    if (abs(findDistance(M1Pulse)- abs(findDistance(M2Pulse) > errorMargin) {
       digitalWrite(M1a , HIGH);
       digitalWrite(M1b , LOW);
       analogWrite(PWM1 , Speed);
