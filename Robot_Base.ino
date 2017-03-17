@@ -4,9 +4,9 @@
 //------------------ Constant-Variables---------------------
 const int16_t pulseResolution = 64;
 const int8_t wheelD = 60;
-const int8_t errorMarginSmall = 1;
+const int8_t errorMarginSmall = 2;
 //const int8_t errorMarginLarge = 55;
-const int8_t adjustVal = 3;
+const int8_t adjustVal = 20;
 
 //------------------Changable-Variables---------------------
 //int16_t powerConst;
